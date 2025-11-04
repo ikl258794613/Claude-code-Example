@@ -8,6 +8,7 @@ function App() {
   const handleSubmit = (e) => {
     e.preventDefault()
     console.log('登入資訊:', { username, password })
+    console.log('登入資訊:',  'test')
     // 這裡可以加入實際的登入邏輯
   }
 
